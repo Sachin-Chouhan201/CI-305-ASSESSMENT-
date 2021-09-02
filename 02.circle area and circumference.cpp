@@ -12,8 +12,8 @@ int main() {
     perimeter = 2*PI*radius;
     area = PI*radius*radius;
 
-    cout<<"The perimeter is: "<<setprecision(2)<<perimeter<<endl;
-    cout<<"The area is: "<<setprecision(2)<<area<<endl;;
+    cout<<"The perimeter is: "<<setprecision(4)<<perimeter<<endl;
+    cout<<"The area is: "<<setprecision(4)<<area<<endl;;
 
     return 0;
 }
@@ -22,7 +22,7 @@ output:-
 
 
 Enter the radius: 2
-The perimeter is: 13
-The area is: 13
+The perimeter is: 12.56
+The area is: 12.56
 
 */
