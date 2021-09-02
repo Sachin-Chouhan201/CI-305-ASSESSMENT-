@@ -1,3 +1,4 @@
+/* “Write a Program for use of predefined sizeof() function to display the data type” */
 #include <iostream>
 using namespace std;
 
