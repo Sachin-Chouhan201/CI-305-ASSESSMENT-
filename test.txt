@@ -1,19 +1,4 @@
-Program: 8
-“Program for Calculating area, Diagonal and Perimeter of Rectangle”
-Program: 9
-“Program for input two number and check whether it is Equal or not”
-Program: 10
-“Program for input three number and find the greatest element using Simple if, Nested
-if………else, if…..else if……..if Statement
-Program: 11
-“Write a Program to input a Number and Check whether it is even or odd”
-Program: 12
-“Write a Program to Input a Year and Check whether it is Leap Year or not”
-Program: 13
-“Write a Program for Bitwise Logical Operators, Increment Operators and Ternary Operators”
-Program: 14
-“Write a Program to Input a character and check whether it is in uppercase, lowercase, digit or
-symbol and convert it to uppercase to lower case and lowercase to uppercase”
+
 Program: 15
 
 “Program for choice ‘+’, ‘-’, ‘*’, ‘/’, ‘%’ -&gt; Addition, Subtraction, Multiplication, Division, Remainder”
