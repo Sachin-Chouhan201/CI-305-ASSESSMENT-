@@ -1,7 +1,3 @@
-
-Program: 15
-
-“Program for choice ‘+’, ‘-’, ‘*’, ‘/’, ‘%’ -&gt; Addition, Subtraction, Multiplication, Division, Remainder”
 Program: 16
 “A program for Mark sheet Calculations (total, percentage and result) using ternary operator”
 Program: 17
