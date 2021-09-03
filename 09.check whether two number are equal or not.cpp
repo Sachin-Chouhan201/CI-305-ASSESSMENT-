@@ -3,9 +3,9 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-	// your code goes here
-	 int int1, int2;
+int main()
+{
+    int int1, int2;
     cout<<"Input the values for Number1 and Number2 : ";
     cin>>int1>>int2;
     if (int1 == int2)
