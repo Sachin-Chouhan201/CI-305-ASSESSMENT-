@@ -1,35 +1,11 @@
-Program: 25
-“A program for find out the sum of digit and count the digit of a number”
-Program: 26
-“A program for print the series in the following format”
-54321
-4321
-321
-21
-1
-
-Program: 27
-“Write a function in C++ to generate the following Pyramid of Numbers and stars”
-
-0
-101
-21012
-3210123
-
-Program: 28
-“A Program to find the sum of the first 100 natural numbers”
-Program: 29
-“A Program to display the first 100 odd numbers using the while loop”
-
-Program: 30
-“A Program to find the sum and average of the given numbers using the while loop”
-Program: 31
-“A Program for generate prime number series”
 Program: 32
 “A program to calculating the total amount of money earned in n day.”
+
 Program: 33
 “Program to demonstrate the unary operators, prefix and postfix modes.”
+
 Program: 34
 “Program for Printing characters base on their respective integer number.”
+
 Program: 35
 “Program for convert seconds into minutes and hours. ”
