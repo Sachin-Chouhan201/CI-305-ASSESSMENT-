@@ -1,21 +1,3 @@
-Program: 17
-“A Program for Swapping of two numbers with and without temporary variable
-Program: 18
-“A program for finding the given number is odd or even and first number is divisible by second using
-Switch Case Statement”
-Program: 19
-“Program for input choice from user for calculating the Area, Perimeter and Diagonal of rectangle and
-display it on to the screen according to user’s response”
-Program: 20
-“Program using for loop to print numbers from 1 to 10”
-Program: 21
-“Program to calculate the factorial of an integer”
-Program: 22
-“A Program for given number is prime or not”
-Program: 23
-“Program for Display Reverse of a number and show a reverse number is palindrome or not”
-Program: 24
-“A program for Print Fibonacci series 011235……………….”
 Program: 25
 “A program for find out the sum of digit and count the digit of a number”
 Program: 26
