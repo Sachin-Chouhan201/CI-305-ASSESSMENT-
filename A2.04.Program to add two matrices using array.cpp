@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     int arr1[5][5], arr2[5][5], arr3[5][5], sub, i, j,m,n;
-    cout<<"Enter size of matrix ( Max:5 ) :: ";
+    cout<<"Enter size of Square matrix ( Max:5 ) :: ";
     cin>>m;
     cout<<"\nEnter Elements to Matrix A Below :: \n";
     for(i=0;i<m;i++)
