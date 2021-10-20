@@ -1,0 +1,42 @@
+// Online C++ compiler to run C++ program online
+
+Simarjeet Singh Bhatia10:53 AM
+Write a program to check whether a number is Strong number or not.
+Strong numbers are the numbers whose sum of factorial of
+digits is equal to the original number itself
+e.g.
+145 is a strong number because
+1! + 4! + 5! => 1 + 24 + 120 => 145
+Write a program to print all Strong numbers between 1 to n.
+//
+#include <iostream>
+using  namespace std;
+int fact(int n)
+{
+    if(n==1||n==0)  return 1;
+    return n*fact(n-1);
+}
+int main() {
+    // Write C++ code here
+    int n;
+    cout<<"\n Enter the number upto which strong no.printed ";
+    cin>>n;
+    for(int i=1;i<=n;i++)
+    {
+        
+        int sum=0;
+        int test=i;
+        while(test)
+        {
+            int rem=test%10;//145 5!=120 
+            sum=sum+fact(rem);
+            test=test/10;//0
+        }
+        if(sum==i)
+        {
+            cout<<"\n The number is "<<sum;
+        }
+    }
+
+    return 0;
+}
