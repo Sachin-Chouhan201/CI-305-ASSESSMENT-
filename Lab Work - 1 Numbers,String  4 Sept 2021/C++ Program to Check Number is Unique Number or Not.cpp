@@ -1,16 +1,11 @@
 /*
-Check Number is Unique Number or Not
-Write a C++ Program to Check Number is Unique Number or Not. Here’s simple C++ Program to Check Number is Unique Number or Not in C++ Programming Language.
-
-Numbers in C++
-Normally, when we work with Numbers, we use primitive data types such as int, short, long, float and double, etc. The number data types, their possible values and number ranges have been explained while discussing C++ Data Types.
+Write a C++ Program to Check Number is Unique Number or Not. 
+Normally, when we work with Numbers, we use primitive data types such as int, short, long, float and double, etc. The number data types, 
+their possible values and number ranges have been explained while discussing C++ Data Types.
 
  
-A unique number is a number in which no digit is repeated. For example: 25712 is not a unique number as 2 is repeated twice while 4512 is a unique number.
-
-So in this article I am sharing the C++ program that check if a number is unique or not.
-
-Here is source code of the C++ Program to Check Number is Unique Number or Not. The C++ program is successfully compiled and run(on Codeblocks) on a Windows system. The program output is also shown in below.
+A unique number is a number in which no digit is repeated. 
+For example: 25712 is not a unique number as 2 is repeated twice while 4512 is a unique number.
 
 */
 //SOURCE CODE : :
