@@ -1,47 +1,40 @@
-Suppose we have an array of integers, in range 1 ≤ a[i] ≤ n (n = size of array), here some elements appear twice and others appear once. We have to find all the elements that appear twice in this array. So if the array is [4,3,2,7,8,2,3,1], then the output will be [2, 3]
+/*
+C++ Program to Find Duplicate Elements in Array
+Array is the collection of similar data type, In this program we find duplicate elements from an array, Suppose array have 3, 5, 6, 11, 5 and 7 elements, 
+in this array 5 appear two times so this is our duplicate elements.
 
-To solve this, we will follow these steps −
+Find Duplicate Elements in Array in C++
+*/
+#include<iostream.h>
+#include<conio.h>
 
-n := size of array, make one array called ans
-for i in range 0 to n – 1
-x := absolute value of nums[i]
-decrease x by 1
-if nums[x] < 0, then add x + 1 into ans, otherwise nums[x] := nums[x] * (-1)
-return ans
-Example(C++)
-Let us see the following implementation to get a better understanding −
-
- Live Demo
-
-#include <bits/stdc++.h>
-using namespace std;
-void print_vector(vector<auto> v){
-   cout << "[";
-   for(int i = 0; i<v.size(); i++){
-      cout << v[i] << ", ";
+ void main()
+ {
+  int i,arr[20],j,no;
+  clrscr();
+  cout<<"Enter Size of array: ";
+  cin>>no;
+  cout<<"Enter any "<<no<<" num in array: ";
+  for(i=0;i<no;i++)
+  {
+   cin>>arr[i];
+  }
+  cout<<"Dublicate Values are: ";
+  for(i=0; i<no; i++)
+   {
+    for(j=i+1;j<no;j++)
+    {
+    if(arr[i]==arr[j])
+    {
+    cout<<"\n"<<arr[i];
+    }
    }
-   cout << "]"<<endl;
-}
-class Solution {
-public:
-   vector<int> findDuplicates(vector<int>& nums) {
-      int n = nums.size();
-      vector <int> ans;
-      for(int i = 0; i < n; i++){
-         int x = abs(nums[i]);
-         x--;
-         if(nums[x] < 0) ans.push_back(x + 1);
-         else nums[x] *= -1;
-      }
-      return ans;
    }
-};
-main(){
-   Solution ob;
-   vector<int> v = {4,3,2,7,8,2,3,1};
-   print_vector(ob.findDuplicates(v));
-}
-Input
-[4,3,2,7,8,2,3,1]
+  getch();
+ }
 Output
-[2,3]
+Enter Size of Array : 5
+Enter any 5 elements in Array: 
+5 4 5 2 3 
+Duplicate Elements are: 
+5
