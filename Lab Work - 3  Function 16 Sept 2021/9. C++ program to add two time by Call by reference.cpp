@@ -1,4 +1,4 @@
-//10. C++ program to add two time by Call by address
+//9. C++ program to add two time by Call by reference
 
 /*
 ####################################################################################################################################
