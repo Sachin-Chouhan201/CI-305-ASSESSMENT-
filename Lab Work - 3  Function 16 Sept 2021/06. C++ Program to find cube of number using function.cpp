@@ -4,7 +4,8 @@
 ##############################################################################################################################
 
 What are Functions ?
-Function is a block of statements that performs some operations. All C++ programs have at least one function – function called “main()”. This function is entry-point of your program.
+Function is a block of statements that performs some operations. All C++ programs have at least one function – function called “main()”.
+This function is entry-point of your program.
 
 A function declaration tells the compiler about a function’s name, return type, and parameters. A function definition provides the actual body of the function.
 
