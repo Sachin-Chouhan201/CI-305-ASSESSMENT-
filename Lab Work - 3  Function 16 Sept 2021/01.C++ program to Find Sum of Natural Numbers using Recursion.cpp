@@ -10,12 +10,6 @@ If user enter 8 , then our program will calculate sum upto that number.
 
 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36
 
-In my last post, i explained how to calculate of sum of n natural numbers using iterative approach. If you are not familiar with recursive and iterative approach then read this post which explain recursion vs iteration.
-
-Programming questions on strings.
-
-Sorting algorithms and their time complexity.
-
 Find Sum of N Natural Numbers using Recursion in C++
 
 */
