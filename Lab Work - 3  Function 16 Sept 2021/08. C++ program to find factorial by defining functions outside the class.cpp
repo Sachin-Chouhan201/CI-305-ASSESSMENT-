@@ -3,7 +3,8 @@
 #####################################################################################################################################
 
 What are Functions ?
-Function is a block of statements that performs some operations. All C++ programs have at least one function – function called “main()”. This function is entry-point of your program.
+Function is a block of statements that performs some operations. All C++ programs have at least one function – function called “main()”. 
+This function is entry-point of your program.
 
 A function declaration tells the compiler about a function’s name, return type, and parameters. A function definition provides the actual body of the function.
 
@@ -23,7 +24,6 @@ return_type : suggests what the function will return. It can be void, int, char,
 Function_Name : is the name of the function, using the function name it is called.
 Parameters : are variables to hold values of arguments passed while function is called. A function may or may not contain parameter list.
 Function body : is he part where the code statements are written.
-Below is the source code for C++ Program to find Factorial of a number using class which is successfully compiled and run on Windows System to produce desired output as shown below :
 
 #####################################################################################################################################
 
